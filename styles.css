@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+html {
+    min-height: 100vh;
+    background: url(./assests/bg-2.jpeg) center center no-repeat fixed;
+    background-size: cover;
+    color: #c5b731 ;
+    overflow-x: hidden;
+    font-size: 1.2rem;
+}
+
+.logo{
+    width: 40rem;
+}
+
+.core-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+}
+
+.core-card {
+    width: 20rem;
+}
+
+.core-card {
+    width: 20rem;
+}
+
+.core-card {
+    width: 20rem;
+}
+
+.wand-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+.wand-card {
+    width: 70%;
+}
+
+.wand-card img {
+    width: 100%;
+}
