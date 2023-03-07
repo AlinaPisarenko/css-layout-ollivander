@@ -4,36 +4,110 @@
 }
 
 html {
+    font-size: 62.5%;
+
+}
+
+body {
     min-height: 100vh;
     background: url(./assests/bg-2.jpeg) center center no-repeat fixed;
     background-size: cover;
-    color: #c5b731 ;
+    color: #f9f6d4ca;
     overflow-x: hidden;
-    font-size: 1.2rem;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 6rem 1fr 6rem;
+}
+
+nav {
+    grid-column: 1/-1;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+    padding: 2rem;
+}
+
+footer {
+    grid-column: 1/-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+a {
+    color: #f9f6d4ca;
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #c5b731 ;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.menu {
+    grid-column: 1/2;
+    display:flex;
+    flex-direction: column;
+    gap:1.4rem;
+    padding-left: 2rem;
+}
+
+.menu a {
+    font-size: 2rem;
+}
+
+main {
+    grid-column: 2/-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+}
+
+
 .logo{
-    width: 40rem;
+    width: 50vw;
 }
 
 .core-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
+    gap: 2rem
+}
+
+.core-card {
+    width: 30rem;
+    background-color: rgba(255, 255, 255, 0.124);
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    position: relative;
     
 }
 
-.core-card {
-    width: 20rem;
+h3 {
+    color: #c5b731 ;
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
 }
 
-.core-card {
-    width: 20rem;
+h2 {
+    color: #c5b731 ;
+    font-size: 3.2rem;
+    padding-bottom: 1.2rem;
 }
 
-.core-card {
-    width: 20rem;
+.core-card p {
+    font-size: 1.6rem;
+    color: #f9f6d4ca;
 }
 
 .wand-container {
@@ -42,13 +116,26 @@ html {
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-
 }
 
 .wand-card {
+    font-size: 1.6rem;
     width: 70%;
 }
 
 .wand-card img {
     width: 100%;
+}
+
+span {
+    font-size: 60px;
+    color: #f6f1b74e;
+    position: absolute;
+    top:-0.2rem;
+    right: 1rem;
+}
+
+span:hover {
+    cursor: pointer;
+    color: #c5b731;  
 }

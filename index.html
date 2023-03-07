@@ -6,62 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <title>Create a wizard</title>
+    <script src="https://kit.fontawesome.com/34dea7dc38.js" crossorigin="anonymous"></script>
+    <title>Diagon Alley</title>
 </head>
 <body>
-    <nav>
+    <div class="container">
+        <nav>
+            <a href="#">Explore</a>
+            <a href="#">My cart</a>
+            <a href="#">Logout</a>
+        </nav>
 
-    </nav>
-    
+        <div class="menu">
+            <h3>Shop Diagon Alley</h3>
+            <a href="#">Madam Malkin’s Robes for All Occasions</a>
+            <a href="#">Quality Quidditch Supplies</a>
+            <a href="#">Flourish and Blotts</a>
+            <a href="#">Magical Menagerie</a>
+            <a href="#">Eeylops Owl Emporium</a>
+            <a href="#">Weasleys’ Wizard Wheezes</a>
+            <a href="#">Borgin and Burkes</a>
+            <a href="#">The apothecary</a>
+            
+        </div>
+        <main>
             <img class="logo" src="./assests/logo.png">
 
-        <div class="core-container">
-            <div class="core-card">
-                <h3>Unicorn</h3>
-                <p>
-                    Unicorn hair generally produces the most consistent magic, and is least subject to fluctuations and blockages. Wands with unicorn cores are generally the most difficult to turn to the Dark Arts. They are the most faithful of all wands, and usually remain strongly attached to their first owner, irrespective of whether he or she was an accomplished witch or wizard.
+            <h2>Select the core</h2>
 
-                    Minor disadvantages of unicorn hair are that they do not make the most powerful wands (although the wand wood may compensate) and that they are prone to melancholy if seriously mishandled, meaning that the hair may ‘die’ and need replacing.
-                </p>
+            <div class="core-container">
+                <div class="core-card">
+                    <h3>UNICORN</h3>
+                    <p>
+                        Unicorn hair generally produces the most consistent magic, and is least subject to fluctuations and blockages. Wands with unicorn cores are generally the most difficult to turn to the Dark Arts. They are the most faithful of all wands, and usually remain strongly attached to their first owner, irrespective of whether he or she was an accomplished witch or wizard.
+                    </p>
+                    <span class="star-logo">&#9055;</span>
+                </div>
+                <div class="core-card">
+                    <h3>DRAGON</h3>
+                    <p>
+                        As a rule, dragon heartstrings produce wands with the most power, and which are capable of the most flamboyant spells. Dragon wands tend to learn more quickly than other types. While they can change allegiance if won from their original master, they always bond strongly with the current owner.
+                    </p>
+                    <span class="star-logo">&#9055;</span>
+                </div>
+                <div class="core-card">
+                    <h3>PHOENIX</h3>
+                    <p>
+                        This is the rarest core type. Phoenix feathers are capable of the greatest range of magic, though they may take longer than either unicorn or dragon cores to reveal this. They show the most initiative, sometimes acting of their own accord, a quality that many witches and wizards dislike. These wands are the hardest to tame and to personalise, and their allegiance is usually hard won.
+                    </p>
+                    <span class="star-logo">&#9055;</span>
+                </div>
             </div>
-            <div class="core-card">
-                <h3>Dragon</h3>
-                <p>
-                    As a rule, dragon heartstrings produce wands with the most power, and which are capable of the most flamboyant spells. Dragon wands tend to learn more quickly than other types. While they can change allegiance if won from their original master, they always bond strongly with the current owner.
 
-                    The dragon wand tends to be easiest to turn to the Dark Arts, though it will not incline that way of its own accord. It is also the most prone of the three cores to accidents, being somewhat temperamental.
-                </p>
-            </div>
-            <div class="core-card">
-                <h3>Phoenix</h3>
-                <p>
-                    This is the rarest core type. Phoenix feathers are capable of the greatest range of magic, though they may take longer than either unicorn or dragon cores to reveal this. They show the most initiative, sometimes acting of their own accord, a quality that many witches and wizards dislike.
+            <h2>Select the style</h2>
 
-                    Phoenix feather wands are always the pickiest when it comes to potential owners, for the creature from which they are taken is one of the most independent and detached in the world. These wands are the hardest to tame and to personalise, and their allegiance is usually hard won.
-                </p>
+            <div class="wand-container">
+                <div class="wand-card">
+                    <h3 class="wand-name">DEFIANT</h3>
+                    <p>Wood: Acacia</p>
+                    <p>Length: 12 Inch</p>
+                    <p>Flexibility: Fairly bendy</p>
+                    <img src="./assests/DEFIANT.webp" alt="defiant" class="card-img">
+                </div>
+                <div class="wand-card">
+                    <h3 class="wand-name">HEROIC</h3>
+                    <p>Wood: Cedar</p>
+                    <p>Length: 11.5 Inch</p>
+                    <p>Flexibility: Solid</p>
+                    <img src="./assests/HEROIC.webp" alt="heroic" class="card-img">
+                </div>
+                    
+                <div class="wand-card">
+                    <h3 class="wand-name">HONOURABLE</h3>
+                    <p>Wood: Cherry</p>
+                    <p>Length: 11.8 Inch</p>
+                    <p>Flexibility: Hard</p>
+                    <img src="./assests/HONOURABLE.webp" alt="honourable" class="card-img">
+                </div>
+                <div class="wand-card">
+                    <h3 class="wand-name">LOYAL</h3>
+                    <p>Wood: Ash</p>
+                    <p>Length: 11 Inch</p>
+                    <p>Flexibility: Whippy</p>
+                    <img src="./assests/LOYAL.webp" alt="loyal" class="card-img">
+                </div>
             </div>
-        </div>
+        </main>
 
-        <div class="wand-container">
-            <div class="wand-card">
-                <h3 class="wand-name">DEFIANT</h3>
-                <img src="./assests/DEFIANT.webp" alt="defiant" class="card-img">
-            </div>
-            <div class="wand-card">
-                <h3 class="wand-name">HEROIC</h3>
-                <img src="./assests/HEROIC.webp" alt="heroic" class="card-img">
-            </div>
-                
-            <div class="wand-card">
-                <h3 class="wand-name">HONOURABLE</h3>
-                <img src="./assests/HONOURABLE.webp" alt="honourable" class="card-img">
-            </div>
-            <div class="wand-card">
-                <h3 class="wand-name">LOYAL</h3>
-                <img src="./assests/LOYAL.webp" alt="loyal" class="card-img">
-            </div>
-        </div>
-    </main>
-
+        <footer>
+            <a href="#">FAQs</a>
+            <a href="#">About Us</a>
+            <a href="#">Privacy & Cookies</a>
+            <a href="#">Terms & Conditions</a>
+        </footer>
+    </div>
 </body>
 </html>
