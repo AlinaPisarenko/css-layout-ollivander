@@ -127,6 +127,15 @@ h2 {
     width: 100%;
 }
 
+.wand-card div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    gap:1rem;
+}
+
 span {
     font-size: 60px;
     color: #f6f1b74e;
